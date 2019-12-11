@@ -1,0 +1,84 @@
+definida por <table>
+
+cabecalho definido por <th>
+
+dividida em linhas por <tr>
+
+linhas dividias por <td>
+
+
+
+<ul>
+
+ <li> <img src="img/logo2.png" alt="img logo" onmouseover=""></li>
+<li><img src="img/home-icon-png-8.png" alt=""> Inicio </li>
+<li> Buscar </li>
+<li> Sua Biblioteca </li>
+<li style="font-size: 10px; font-family: 'Arimo', sans-serif; padding: 15px 0px;"> PLAYLISTS </li>
+<li>Criar playlist</li>
+
+
+        </ul>
+
+<iframe src="menu-esquerda.html"" frameborder="0" scrool= "no"></iframe>
+
+
+div#albuns{
+
+    position: relative;
+    float: right;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+
+
+iframe{
+
+    height: 1000px;
+}
+
+footer, p{
+
+
+    height: 10px;
+    background-color: chocolate;
+
+}
+
+
+div{
+
+    width: 310px;
+    height: 100%;
+    background-color: #040404;    
+    color: white;
+
+}
+
+div#playlist{
+    height: 1000px;
+}
+
+div#playlist td{
+
+    padding: 5px 50px;
+
+}
+
+td{
+
+    text-align: left;
+    padding-left: 50px;
+    margin: 0;
+
+}
+
+
+
+
+
+
+  <h2>Recently played</h2>
+    <h3>VER TUDO</h3>

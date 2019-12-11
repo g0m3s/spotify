@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+    color: white;
+    overflow: hidden;
+}
+p,h1{
+    text-align: center;
+}
+
+h2{
+    padding-top: 25px;
+    padding-left: 258px;
+    scroll-padding-bottom: 0;
+    font-size: 20pt;
+    text-align: left;
+}
+h3{
+    padding-top: 0;
+    padding-left: 258px;
+    margin-top: 5px;
+    font-size: 10pt;
+    text-align: left;
+}
+h4{
+    font-size: 10pt;
+    color: white;
+}
+
+ul, li{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+a{
+    text-decoration: none
+    color: white;
+}
+
+section#sessao-menu{
+
+    position: relative;
+    float: left;
+    background-color: #040404;
+    font-family: 'Viga', sans-serif;
+    color: rgb(214, 209, 209);
+    padding-top: 25px;
+    width: 230px;
+    height: 829px;
+
+}
+
+section#sessao-menu td{
+
+    padding: 8px 50px;
+    font-size: 1rem;
+
+}
+
+td{
+
+    text-align: left;
+    padding: 50px;
+    margin: 0;
+
+}
+
+img{
+    
+    max-width: 100%;
+    display: block;
+}
+
+
+section#albuns1{
+        
+    background-color: #121212;
+    margin: 0px 30px;
+
+}
+
+section#albuns2{
+        
+    background-color: #121212;
+    margin: 0px 30px;
+
+}
+.header{
+
+    display: flex;
+    justify-content: right;
+
+}
+
+.flex{
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.flex > div {
+
+    flex: 1 1 110px;
+    margin: 10px;
+    padding: 20px 20px 50px 20px;
+    background-color: #282828;
+    border-radius: 10px;
+    max-width: 110px;
+    
+}
+
+.icons > img {
+    
+    padding-bottom: 10px;
+
+}
+
+.icons > figcaption{
+    opacity: 1;
+    text-align: center;
+}
+
+footer#musica-atual{
+
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    height: 90px;
+    width: 100%;
+    background-color:  #282828;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    padding-right: 40px;
+
+}
+
+.music-icons{
+
+    display: flex;
+
+}
+
+.music-icons > img{
+
+    margin: 3px;
+
+}
